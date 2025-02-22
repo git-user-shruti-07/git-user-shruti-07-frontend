@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+}
+.parent .child{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+.topBox * {
+    margin-top: 20px;
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.parent >.subchild{
+    background-color: yellow;
+    border: 2px solid;
+    height: 20px;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: purple;
+}
+.box4{
+    background-color: darkred;
+}

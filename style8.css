@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100px;
+    width: 100%;
+}
+.header{
+    height: 10%;
+    width: 100%;
+    background-color: palevioletred;
+    position: fixed;
+    top: 0;
+    border: 2px solid black;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    border: 2px solid black;
+}
+p{
+    min-height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    border: 2px solid black;
+}

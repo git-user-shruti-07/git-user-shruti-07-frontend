@@ -1,0 +1,54 @@
+:root{
+    --redColor:red;
+    --borderRadius:50%
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.box1{
+    --redColor: blue;
+    height: 100px;
+    width: 100%;
+    background-color: var(--redColor);
+    margin-top: 10px;
+    border-radius: var(--borderRadius);
+}
+.box2{
+    --redColor: yellow;
+    height: 100px;
+    width: 100%;
+    background-color:var(--redColor);
+    margin-top: 10px;
+    border-radius: var(--borderRadius);
+}
+.box3{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    margin-top: 10px;
+    border-radius: var(--borderRadius);
+    
+}
+.box4{
+    --redColor:black;
+    height: 100px;
+    width: 100%;
+    background-color: var(--redColor);
+    margin-top: 10px;
+    border-radius: var(--borderRadius);
+}

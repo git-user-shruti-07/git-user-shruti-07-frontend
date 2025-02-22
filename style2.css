@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: aqua;
+    color: rgb(255, 0, 93);
+    text-align: end;
+    letter-spacing: 8px;
+}
+#myButton{
+    background-color: blueviolet;
+}
+#heading{
+    color: black;
+    background-color: aquamarine;
+}
+.myfirstclass{
+    color: red;
+    background-color: rgb(246, 255, 0);
+}
+p{
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: lowercase;
+    /*text-transform: capitalize;
+    text-transform:uppercase */
+    
+    /* text-decoration:underline;
+    text-decoration-color:aqua
+    text-decoration-thicknaess:2px;*/
+    text-decoration: underline rgb(140, 255, 0) 2px;
+    font-size: 20px;
+    font-family: "Playwrite IN", serif;
+    font-style: normal;
+    
+}
+h3{
+    /* border-width:5px*;
+    border-style:solid;
+    border-color:blue;*/
+    border:2px dashed blue;
+    
+    text-transform: uppercase;
+    
+}

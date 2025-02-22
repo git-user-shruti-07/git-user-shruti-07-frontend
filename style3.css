@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 10px;
+    margin-left: 50%; /*or margine:auto;*/
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
